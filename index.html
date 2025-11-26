@@ -2,40 +2,49 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>เว็บส่วนตัวของ Fa-is</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; background: #f9f9f9; }
-    header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    section { padding: 20px; }
-    footer { background: #333; color: white; text-align: center; padding: 10px; }
-  </style>
+  <title>Fa-is | เว็บส่วนตัว</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>สวัสดีครับ ผมชื่อ Fa-is</h1>
-    <p>นี่คือเว็บส่วนตัวของผม</p>
+    <div class="container">
+      <h1>Fa-is</h1>
+      <p>นักพัฒนาเว็บไซต์ | นักออกแบบ | ผู้หลงใหลในเทคโนโลยี</p>
+    </div>
   </header>
+
   <nav>
-    <a href="#about">เกี่ยวกับฉัน</a>
-    <a href="#portfolio">ผลงาน</a>
-    <a href="#contact">ติดต่อ</a>
+    <div class="container">
+      <a href="#about">เกี่ยวกับ</a>
+      <a href="#portfolio">ผลงาน</a>
+      <a href="#contact">ติดต่อ</a>
+    </div>
   </nav>
-  <section id="about">
+
+  <section id="about" class="container">
     <h2>เกี่ยวกับฉัน</h2>
-    <p>ผมสนใจด้านเทคโนโลยี การเขียนโปรแกรม และการออกแบบเว็บไซต์</p>
+    <p>สวัสดีครับ ผมชื่อ Fa-is เป็นนักพัฒนาเว็บไซต์ที่ชื่นชอบการออกแบบและสร้างประสบการณ์ออนไลน์ที่ดีให้กับผู้ใช้</p>
   </section>
-  <section id="portfolio">
+
+  <section id="portfolio" class="container">
     <h2>ผลงาน</h2>
-    <p>นี่คือพื้นที่สำหรับโชว์โปรเจกต์ต่าง ๆ ของผม</p>
+    <ul>
+      <li>เว็บไซต์ร้านกาแฟ</li>
+      <li>ระบบจองห้องประชุม</li>
+      <li>บล็อกส่วนตัวเกี่ยวกับเทคโนโลยี</li>
+    </ul>
   </section>
-  <section id="contact">
+
+  <section id="contact" class="container">
     <h2>ติดต่อ</h2>
     <p>อีเมล: fa-is@example.com</p>
+    <p>Facebook: fb.com/fa-is.dev</p>
   </section>
+
   <footer>
-    <p>© 2025 Fa-is</p>
+    <div class="container">
+      <p>© 2025 Fa-is. สงวนลิขสิทธิ์</p>
+    </div>
   </footer>
 </body>
 </html>
